@@ -1,0 +1,101 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif ;
+    background-color: #fff5f5; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d5006d; 
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #d5006d;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #d5006d;
+    border-radius: 8px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #d5006d; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c7005b; 
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #d5006d;
+    border-radius: 5px;
+    width: calc(100% - 130px); 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+a {
+    color: #d5006d; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; 
+    }
+
+    section {
+        padding: 10px; 
+    }
+
+    button {
+        width: 100%; 
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        width: calc(100% - 20px); 
+    }
+}

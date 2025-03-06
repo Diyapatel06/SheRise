@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheRise Network</title>
+    <link rel="icon" type="image/png" href="SN logo-modified.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="SN logo-modified.png" alt="Logo" class="logo">
+        <h1>SheRise Network</h1>
+        <p>Your go-to place for hydration, organization, and safety!</p>
+    </header>
+
+    <main>
+        <section id="hydration-reminder">
+            <h2>Hydration Reminder</h2>
+            <p id="hydration-message"></p>
+            <input type="number" id="hydration-interval" placeholder="Set interval (minutes)">
+            <button onclick="setHydrationReminder()">Set Reminder</button>
+        </section>
+
+        <section id="todo-list">
+            <h2>To-Do List</h2>
+            <input type="text" id="todo-input" placeholder="Add a new task...">
+            <button onclick="addTodo()">Add</button>
+            <ul id="todo-items"></ul>
+        </section>
+
+        <section id="helplines">
+            <h2>Government Helpline Numbers</h2>
+            <ul>
+                <li>Women's Helpline: 181</li>
+                <li>Emergency Services: 112</li>
+                <li>Domestic Violence Helpline: 1800-200-0022</li>
+            </ul>
+        </section>
+
+        <section id="emergency-contacts">
+            <h2>Emergency Contacts</h2>
+            <input type="text" id="emergency-input" placeholder="Enter contact number...">
+            <button onclick="addEmergencyContact()">Add</button>
+            <ul id="emergency-items"></ul>
+        </section>
+
+        <section id="resources">
+            <h2>Skill Development Resources</h2>
+            <ul>
+                <li><a href="https://www.coursera.org/" target="_blank">Coursera</a></li>
+                <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                <li><a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <center><p>&copy; 2025 SheRise Network. All rights reserved.</p></center>
+    </footer>
+
+    <script src="hack.js"></script>
+</body>
+</html>
